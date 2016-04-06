@@ -6,7 +6,7 @@ body{
 }
 
 .clearfix {
-    overflow: auto;
+    overflow: hidden;
 
 }
 
@@ -14,15 +14,26 @@ body{
     display: block;
     width: 1024px;
     margin: 0 auto;
-    background: url("http://demo.web3canvas.com/themeforest/proland/images/header-background.jpg");
+
 
 }
+
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
 .header {
     height: 60px;
 }
 .header-logo {
     display: block;
     float: left;
+    padding: 2px 0;
 }
 
 
@@ -36,6 +47,12 @@ ul.header-nav {
 ul.header-nav > li {
     display: inline-block;
 }
+ul.header-nav > li.header-nav-cta > a {
+    background-color: #2fca2d;
+    border-radius: 20px;
+    padding: 11px 30px;
+    color: #fff;
+}
 ul.header-nav > li > a {
     display: inline-block;
     padding: 19px 10px;
@@ -45,54 +62,50 @@ ul.header-nav > li > a {
     text-transform: uppercase;
 }
 ul.header-nav > li > a:hover {
-    background-color: red;
+    color: #5c6166;
 }
 
-.buy-it-now {
-    border-radius: 30px;
-    background-color: orange;
-}
-.top-banner {
-    display: block;
-    margin: 0 auto;
-    width: auto;
-    height: auto;
-    padding: 190px 0;
-    background-image: url("http://demo.web3canvas.com/themeforest/proland/images/header-background.jpg");
-    background-size: contain;
 
 
-}
-.watch {
-
-    background-image: url("http://demo.web3canvas.com/themeforest/proland/images/apple-watch.png");
-
-}
-.text-centre {
+.product{
+    position: relative;
+    padding-top: 60px;
+    background: url("../img/header-background.jpg") center no-repeat;
+    height: 1000px;
     text-align: center;
 }
-h2 {
-    margin: 0px 0px 20px 0px;
+.product-title {
+    color: #374048;
+    font-size: 79px;
+    padding-top: 80px;
 
 }
-p {
-    margin: 0px 180px 40px 180px;
-    font-size: 24px;
-
+.product-description {
+    color: #8a9095;
+    font-size: 27px;
+    padding: 0 130px;
+    line-height: 44px;
 }
-div > a {
-
-
+.product-cta {
     display: inline-block;
-
-    background-color: deepskyblue;
-    border-radius: 30px;
-    font: 500 27px/72px "poppins",sanse-serif;
-    margin: 0 470px 77px 470px;
-    padding: 0 85px;
+    background-color: #2FCA2D;
+    color: #fff;
     text-decoration: none;
-
+    text-transform: uppercase;
+    font-size: 27px;
+    padding: 20px 40px;
+    border-radius: 30px;
+    margin-top: 40px;
 }
-div > a:hover {
-    background-color: black;
+.product-cta:hover {
+    background-color: #374048;
+}
+.product-image {
+    position: absolute;
+    height: 328px;
+    width: 290px;
+    bottom: 76px;
+    left: 50%;
+    margin: 0 calc(-290px / 2);
+
 }
