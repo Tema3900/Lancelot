@@ -109,3 +109,114 @@ ul.header-nav > li > a:hover {
     margin: 0 calc(-290px / 2);
 
 }
+.product-1 {
+    position: relative;
+    text-align: center;
+    height: 1000px;
+}
+.product-title-1 {
+    padding-top: 60px;
+    text-transform: uppercase;
+    font-size: 55px;
+    color: #374048;
+
+}
+.product-description-1 {
+    color: #8a9095;
+    font-size: 26px;
+    padding: 0 80px;
+}
+hr {
+    height: 6px;
+    width: 82px;
+    background-color: #eee;
+    border: none;
+
+}
+.product-image-1 {
+    position: relative;
+    height: 499px;
+    width: 347px;
+    left: 50%;
+    padding-top: 75px;
+    margin: 0 calc( -347px / 2);
+
+
+}
+.plus {
+
+    position: absolute;
+    display: block;
+    height: 31px;
+    width: 38px;
+    padding-top: 7px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #0084ff;
+    color: #fff;
+    text-decoration: none;
+
+
+}
+.plus-1 {
+    position: relative;
+    top: -455px;
+    right: -305px;
+
+
+}
+.plus-2 {
+    position: relative;
+    top: -379px;
+    right: 8px;
+
+}
+.plus-3 {
+    position: relative;
+    top: -310px;
+    right: -222px;
+
+}
+.plus-4 {
+    position: relative;
+    top: -237px;
+    right: -12px;
+}
+.product-2 {
+    position: relative;
+    text-align: center;
+    height: 1000px;
+    background-color: #f8fbfd;
+
+}
+
+.blocks {
+    display: block;
+    padding-top: 35px;
+
+}
+.three-blocks {
+    width: 33.33%;
+    display: block;
+    float: left;
+
+
+}
+.text-in-three-blocks {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    line-height: 28px;
+    color: #737c85;
+
+}
+.title-blocks {
+    margin: 60px 0 21px;
+    font: 600 26px/1 "Poppins",sans-serif;
+
+}
+.right-arrow {
+    display: block;
+    background-image: url("../img/right-angle.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
