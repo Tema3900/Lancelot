@@ -33,9 +33,12 @@ body{
 .header-logo {
     display: block;
     float: left;
-    padding: 2px 0;
-}
 
+}
+.header-logo > img {
+    width: 150px;
+    padding: 8px 0;
+}
 
 
 ul.header-nav {
@@ -109,114 +112,153 @@ ul.header-nav > li > a:hover {
     margin: 0 calc(-290px / 2);
 
 }
-.product-1 {
-    position: relative;
-    text-align: center;
-    height: 1000px;
+.section {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #fff;
 }
-.product-title-1 {
-    padding-top: 60px;
-    text-transform: uppercase;
-    font-size: 55px;
-    color: #374048;
-
-}
-.product-description-1 {
-    color: #8a9095;
-    font-size: 26px;
-    padding: 0 80px;
-}
-hr {
-    height: 6px;
-    width: 82px;
-    background-color: #eee;
-    border: none;
-
-}
-.product-image-1 {
-    position: relative;
-    height: 499px;
-    width: 347px;
-    left: 50%;
-    padding-top: 75px;
-    margin: 0 calc( -347px / 2);
-
-
-}
-.plus {
-
-    position: absolute;
-    display: block;
-    height: 31px;
-    width: 38px;
-    padding-top: 7px;
-    font-size: 20px;
-    border-radius: 30px;
-    background-color: #0084ff;
-    color: #fff;
-    text-decoration: none;
-
-
-}
-.plus-1 {
-    position: relative;
-    top: -455px;
-    right: -305px;
-
-
-}
-.plus-2 {
-    position: relative;
-    top: -379px;
-    right: 8px;
-
-}
-.plus-3 {
-    position: relative;
-    top: -310px;
-    right: -222px;
-
-}
-.plus-4 {
-    position: relative;
-    top: -237px;
-    right: -12px;
-}
-.product-2 {
-    position: relative;
-    text-align: center;
-    height: 1000px;
+.section .section-dark {
     background-color: #f8fbfd;
+}
+.section .section-title {
+    font-size: 48px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #374048;
+}
+.section .section-description {
+    width: 700px;
+    margin: 0 auto 60px auto;
+    padding-bottom: 60px;
+    font-size: 20px;
+    color: #969da3;
+    text-align: center;
+    line-height: 32px;
+    position: relative;
 
 }
+.section .section-description::before{
+    content: "BEFORE";
+}
 
-.blocks {
-    display: block;
-    padding-top: 35px;
+.section .section-description::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    bottom: calc(30px - (4px/2));
+    background-color: #eee;
+
+    left: calc(50% - (80px / 2));
+}
+
+.product-section {
 
 }
-.three-blocks {
-    width: 33.33%;
-    display: block;
-    float: left;
-
-
-}
-.text-in-three-blocks {
-    font-size: 16px;
-    font-family: Poppins, sans-serif;
-    line-height: 28px;
-    color: #737c85;
-
-}
-.title-blocks {
-    margin: 60px 0 21px;
-    font: 600 26px/1 "Poppins",sans-serif;
-
-}
-.right-arrow {
-    display: block;
-    background-image: url("../img/right-angle.png");
+.product-section .product-section-watch {
+    position: relative;
+    background: url("../img/apple-watch-2.png");
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: right center;
+    width: 347px;
+    height: 499px;
+    margin: 0 auto;
+}
+.product-section .product-section-watch > .watch-tip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: #0084ff;
+    border-radius: 50%;
+    color: #fff;
+}
+.product-section .product-section-watch > .watch-tip:hover::before {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #2fca2d;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+.product-section .product-section-watch > .watch-tip:nth-child(1) {
+    top: 40px;
+    right: 18px;
+    left: initial;
+}
+.product-section .product-section-watch > .watch-tip:nth-child(2) {
+    top: 140px;
+    left: -10px;
+}
+.product-section .product-section-watch > .watch-tip:nth-child(3) {
+    top: 250px;
+    left: 225px;
+}
+.product-section .product-section-watch > .watch-tip:nth-child(4) {
+    top: initial;
+    bottom: 95px;
+    left: 5px;
+}
+.hiw-section {
+
+}
+.hiw-steps {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hiw-steps > .hiw-step {
+    float: left;
+    width: 33.333333%;
+    padding: 0 0px;
+    position: relative;
+
+}
+.hiw-steps > .hiw-step > .hiw-step-image {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.hiw-steps > .hiw-step > .hiw-step-title {
+    color: #374048;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.hiw-steps > .hiw-step > .hiw-step-description {
+    color: #737c85;
+    font-size: 16px;
+    line-height: 26px;
+}
+.hiw-steps > .hiw-step > .hiw-step-arrow {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+    border-top: 1px  solid #a6afba;
+    border-right: 1px solid #a6afba;
+    transform: rotate(45deg);
+}
+.hiw-steps > .hiw-step > .hiw-step-arrow::before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #374048;
+    transform: rotate(45deg);
+}
+.hiw-steps > .hiw-step > .hiw-step-arrow::after {
+
 }
