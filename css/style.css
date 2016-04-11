@@ -139,7 +139,7 @@ ul.header-nav > li > a:hover {
 
 }
 .section .section-description::before{
-    content: "BEFORE";
+    content: "";
 }
 
 .section .section-description::after {
