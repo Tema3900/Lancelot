@@ -115,10 +115,21 @@
     font-weight: 400;
     font-style: italic;
 }
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/110798-linecons/font/Flaticon.eot");
+    src: url("../fonts/110798-linecons/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/110798-linecons/font/Flaticon.woff") format("woff"),
+    url("../fonts/110798-linecons/font/Flaticon.ttf") format("truetype"),
+    url("../fonts/110798-linecons/font/Flaticon.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     box-sizing: border-box;
 }
-
 body{
 
     margin: 0;
@@ -193,7 +204,7 @@ ul.header-nav > li > a:hover {
 
 .product{
     position: relative;
-    padding-top: 60px;
+
     background: url("../img/header-background.jpg") center no-repeat;
     height: 1000px;
     text-align: center;
@@ -290,13 +301,14 @@ ul.header-nav > li > a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    width: 20px;
-    height: 20px;
-    padding: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 1px;
     text-align: center;
     background-color: #0084ff;
     border-radius: 50%;
     color: #fff;
+    font-size: 20px;
 }
 .product-section .product-section-watch > .watch-tip:hover::before {
     content: "";
@@ -382,4 +394,35 @@ ul.header-nav > li > a:hover {
 }
 .hiw-steps > .hiw-step > .hiw-step-arrow::after {
 
+}
+.befefits-list {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+.befefits-item {
+    width: 33.33%;
+    float: left;
+    padding-left: 50px;
+    position: relative;
+
+
+}
+.benefits-item-icon {
+    position: absolute;
+    font-family: Flaticon;
+    left: 3px;
+    top: 5px;
+}
+.flaticon-location-gps:before {
+    content: "\f113";
+}
+.benefits-item-content {
+
+}
+.benefits-item-description {
+    
 }
