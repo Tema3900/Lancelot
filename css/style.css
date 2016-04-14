@@ -388,37 +388,37 @@ ul.header-nav > li > a:hover {
 }
 .benefits-section {}
 
-.iconed-list {
+.icon-list {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.iconed-list > .iconed-list-item {
+.icon-list > .icon-list-item {
     display: block;
     position: relative;
     width: 33.33333%;
     float: left;
 }
-.iconed-list .iconed-list-item-icon {
+.icon-list .icon-list-item-icon {
     display: inline-block;
     position: absolute;
     top: 0;
     left: 4px;
     font-size: 35px;
     line-height: 1;
-    color: #2fca2d;
+    color: #0084ff;
 }
-.iconed-list .iconed-list-item-content {
+.icon-list .icon-list-item-content {
     padding-left: 60px;
 }
-.iconed-list .iconed-list-item-title {
+.icon-list .icon-list-item-title {
     color: #374048;
     font-size: 20px;
     line-height: 20px;
     margin: 0;
 }
-.iconed-list .iconed-list-item-description {
+.icon-list .icon-list-item-description {
     color: #82898f;
     font-size: 14px;
     line-height: 22px;
@@ -427,11 +427,11 @@ ul.header-nav > li > a:hover {
 .watch-section {
     position: relative;
 }
-.watch-feautures-list > .watch-feautures-list-item {
+.watch-features-list > .watch-features-list-item {
     margin: 30px 0;
 }
 
-.watch-feautures-list:after {
+.watch-features-list:after {
     content: "";
     display: block;
     background: url("../img/apple-watch-3.png") center no-repeat;
@@ -441,11 +441,11 @@ ul.header-nav > li > a:hover {
     top: calc(50% - 510px / 2);
     left: calc(50% - 283px / 2);
 }
-.watch-feautures-list > .watch-feautures-list-item:nth-child(odd) {
+.watch-features-list > .watch-features-list-item:nth-child(odd) {
     margin-right: 16.6666%;
 }
 
-.watch-feautures-list > .watch-feautures-list-item:nth-child(even) {
+.watch-features-list > .watch-features-list-item:nth-child(even) {
     margin-left: 16.6666%;
 }
 
@@ -454,4 +454,4 @@ ul.header-nav > li > a:hover {
 .benefits-list > .benefits-item .benefits-item-content {}
 .benefits-list > .benefits-item .benefits-item-icon {}
 .benefits-list > .benefits-item .benefits-item-title { }
-.benefits-list > .benefits-item .benefits-item-discription {}
+.benefits-list > .benefits-item .benefits-item-description {}
