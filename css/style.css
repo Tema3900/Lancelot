@@ -455,3 +455,117 @@ ul.header-nav > li > a:hover {
 .benefits-list > .benefits-item .benefits-item-icon {}
 .benefits-list > .benefits-item .benefits-item-title { }
 .benefits-list > .benefits-item .benefits-item-description {}
+
+
+.section-products-collection {}
+.products-collection-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 -10px;
+
+}
+.products-collection-item {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.products-collection-item > .item-image img {
+    width: 100%;
+}
+.products-collection-item > .item-title {
+    color:#2FCA2D;
+    font-size: 16px;
+    line-height: 1;
+}
+.products-collection-item > .item-description {
+    color: #b4bcc3;
+    font-size: 13px;
+    line-height: 1;
+    margin-top: 4px;
+    margin-bottom: 26px;
+}
+.products-collection-item > .item-price {
+    color: #ff6622;
+    font-size: 19px;
+    line-height: 1;
+    margin: 14px 0 20px;
+    font-weight: 700;
+}
+.products-collection-item > .item-buttom {
+    display: inline-block;
+    border-radius: 30px;
+    color: #b4bcc3;
+    font-size: 12px;
+    line-height: 26px;
+    border: 1px solid #e1e4e7;
+    padding: 2px 33px 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.products-collection-item > .item-buttom:hover {
+    background-color: #f5f8fb;
+}
+
+.the-watch {}
+
+.section-the-watch {
+    padding-top: 60px;
+    width: 585px;
+    height: 481px;
+    text-align: left;
+    float: left;
+    display: inline;
+
+
+
+}
+.the-watch-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.the-watch-list > .the-watch-items {
+
+    margin-top: 22px;
+
+}
+.the-watch-list > .the-watch-items > .the-watch-item-description {
+
+    font-size: 30px;
+    color: #696f74;
+    background: url('../img/check.png') center no-repeat;
+    padding: 0 0 0 50px;
+    
+
+    background-position: left;
+
+}
+.the-watch-list > .the-watch-items > .the-watch-items-image-check{
+    width: 32px;
+    height: 32px;
+    margin-right: 17px;
+}
+.the-watch-image {
+    display: inline;
+    width: 438px;
+    height: 568px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.section .section-the-watch .section-title {
+    text-align: left;
+}
+.section .section-the-watch .section-description {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    width: 585px;
+
+}
+.section .section-the-watch .section-description::after {
+    text-align: left;
+}
