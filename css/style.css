@@ -128,7 +128,8 @@ body{
 }
 
 .clearfix {
-    overflow: hidden;
+
+    overflow: auto;
 
 }
 
@@ -151,6 +152,7 @@ body{
 
 .header {
     height: 60px;
+    overflow: hidden;
 }
 .header-logo {
     display: block;
@@ -204,10 +206,12 @@ ul.header-nav > li > a:hover {
     font-size: 79px;
     padding-top: 80px;
 
+
 }
 .product-description {
     color: #8a9095;
     font-size: 27px;
+    font-weight: 300;
     padding: 0 130px;
     line-height: 44px;
 }
@@ -235,9 +239,10 @@ ul.header-nav > li > a:hover {
 
 }
 .section {
+
     width: 100%;
     padding: 60px 0;
-    background-attachment: #fff;
+    background-color: #fff;
 }
 .section .section-dark {
     background-color: #F8FBFD;
@@ -258,6 +263,7 @@ ul.header-nav > li > a:hover {
     text-align: center;
     line-height: 32px;
     position: relative;
+    font-weight: 300;
 
 }
 .section .section-description::before{
@@ -363,6 +369,7 @@ ul.header-nav > li > a:hover {
 .hiw-steps > .hiw-step > .hiw-step-description {
     color: #737c85;
     font-size: 16px;
+    font-weight: 300;
     line-height: 26px;
 }
 .hiw-steps > .hiw-step > .hiw-step-arrow {
@@ -421,6 +428,7 @@ ul.header-nav > li > a:hover {
 .icon-list .icon-list-item-description {
     color: #82898f;
     font-size: 14px;
+    font-weight: 300;
     line-height: 22px;
 }
 
@@ -477,6 +485,7 @@ ul.header-nav > li > a:hover {
 .products-collection-item > .item-title {
     color:#2FCA2D;
     font-size: 16px;
+    font-weight: 600;
     line-height: 1;
 }
 .products-collection-item > .item-description {
@@ -485,12 +494,13 @@ ul.header-nav > li > a:hover {
     line-height: 1;
     margin-top: 4px;
     margin-bottom: 26px;
+    font-weight: 300;
 }
 .products-collection-item > .item-price {
     color: #ff6622;
     font-size: 19px;
     line-height: 1;
-    margin: 14px 0 20px;
+    margin: 14px 0 19px;
     font-weight: 700;
 }
 .products-collection-item > .item-buttom {
@@ -508,18 +518,16 @@ ul.header-nav > li > a:hover {
     background-color: #f5f8fb;
 }
 
-.the-watch {}
+.the-watch {
+    width: 100%;
+}
 
-.section-the-watch {
+.the-watch-item {
+
     padding-top: 60px;
-    width: 585px;
-    height: 481px;
-    text-align: left;
+    width: 50%;
+    margin: 0;
     float: left;
-    display: inline;
-
-
-
 }
 .the-watch-list {
     list-style: none;
@@ -533,12 +541,12 @@ ul.header-nav > li > a:hover {
 }
 .the-watch-list > .the-watch-items > .the-watch-item-description {
 
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
     color: #696f74;
     background: url('../img/check.png') center no-repeat;
     padding: 0 0 0 50px;
-    
-
     background-position: left;
 
 }
@@ -548,24 +556,121 @@ ul.header-nav > li > a:hover {
     margin-right: 17px;
 }
 .the-watch-image {
-    display: inline;
-    width: 438px;
-    height: 568px;
-    margin: 0 auto;
-    text-align: center;
 
-}
-.section .section-the-watch .section-title {
-    text-align: left;
-}
-.section .section-the-watch .section-description {
-    text-align: left;
-    padding: 0;
+    width: 50%;
+    padding: 0 60px;
+    text-align: right;
     margin: 0;
-    font-size: 18px;
-    width: 585px;
+    float: right;
 
 }
-.section .section-the-watch .section-description::after {
+.block-the-watch {
+    width: 50%;
+    float: left;
+}
+
+.block-the-watch > .section-title {
     text-align: left;
+}
+.block-the-watch > .section-description {
+    text-align: left;
+    margin: 0;
+    font-size: 20px;
+    width: 100%;
+
+}
+.block-the-watch > .section-description::after {
+    left: 0;
+
+}
+.four-blocks{}
+
+.two-blocks {
+    position: relative;
+    height: 459px;
+    overflow: hidden;
+
+}
+.two-blocks > .two-blocks-image-top {
+
+    width: 50%;
+    overflow: hidden;
+
+
+}
+.two-blocks > .two-blocks-item-top {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 50%;
+    padding: 97px 0 0 37px;
+
+
+
+
+
+
+
+}
+.two-blocks .blocks-title {
+    color: #374048;
+
+}
+.two-blocks .blocks-description {
+    color: #c0cad0;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+
+}
+.two-blocks > .two-blocks-item-bottom {
+    width: 50%;
+    height: 459px;
+    padding: 97px 37px 0 0;
+}
+.two-blocks > .two-blocks-image-bottom {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    left: 50%;
+    overflow: hidden;
+}
+
+.reviews-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.reviews-list > .reviews-item {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 15px;
+
+}
+.reviews-list > .reviews-item > .reviews-item-quote {
+    margin-bottom: 20px;
+}
+.reviews-list > .reviews-item > .reviewer {
+    opacity: 0.5;
+}
+.featured-on {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 70px;
+}
+.featured-on > .featured-on-list {
+    list-style: none;
+
+
+
+}
+.featured-on > .featured-on-list > .featured-on-images {
+    float: left;
+    width: 16.66%;
+    font-size: 50%;
+    opacity: 0.33;
+
 }
