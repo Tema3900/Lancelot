@@ -674,3 +674,111 @@ ul.header-nav > li > a:hover {
     opacity: 0.33;
 
 }
+
+.faq-block {}
+.faq-block > .faq-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+.faq-block > .faq-list > .faq-items {
+    width: 50%;
+    float: left;
+    margin-top: 35px;
+    padding: 0 15px;
+}
+.faq-block > .faq-list > .faq-items > .faq-title {
+    color: #374048;
+    font-weight: 500;
+    font-size: 20px;
+}
+.faq-block > .faq-list > .faq-items > .faq-description {
+    color: #82898f;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.email {
+    color: blue;
+}
+.email:hover {
+    color: green;
+}
+
+.tech-section {}
+.tech-block {
+    position: relative;
+}
+.tech-block > .tech-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+.tech-block > ul.tech-list > li.tech-item {
+    padding: 35px 15px;
+    width: 33.33%;
+    float: left;
+    border-top: 1px solid;
+    border-color: #eee;
+    min-height: 255px;
+
+
+}
+/*
+.tech-block > .tech-list > .tech-item::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #eee;
+    top: 0;
+
+}
+*/
+.tech-block > ul.tech-list > li.tech-item > .tech-title {
+    margin: 0 0 8px;
+    padding: 0;
+    color: #374048;
+    font-size: 20px;
+}
+.tech-block > ul.tech-list > li.tech-item > ul.tech-description {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.meet-the-team-section {}
+.meet-the-team-section ul.team-photo-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.meet-the-team-section ul.team-photo-list > li.team-photo {
+    float: left;
+    width: 25%;
+
+    text-align: center;
+
+}
+.meet-the-team-section ul.team-photo-list > li.team-photo > li.team-photo {}
+.meet-the-team-section ul.team-photo-list > li.team-photo > li.team-photo > .team-photo-text {
+
+}
+.meet-the-team-section ul.team-photo-list > li.team-photo > .team-photo-text > .team-photo-text-name {
+    color: #374048;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.meet-the-team-section ul.team-photo-list > li.team-photo > .team-photo-text > .team-photo-text-job {
+    color: #82898f;
+    font-size: 14px;
+    font-weight: 300;
+}
