@@ -972,3 +972,25 @@ section .timeline-block h4 {
     left: 469px;
     position: absolute;
 }
+
+.section-mobile-app {
+    background: url("../img/mobile-ap-bg.jpg") no-repeat center;
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+.mobile-app-image {
+    float: left;
+}
+.mobile-app-image > .mobile-image {}
+
+.mobile-app-for-watch {
+    width: 50%;
+    
+}
+
+.mobile-app-for-watch > .mobile-app-text {}
+
+.mobile-app-for-watch > .mobile-app-text > .mobile-app-tittle {}
+
+.mobile-app-for-watch > .mobile-app-text > .mobile-app-description {}
