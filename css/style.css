@@ -583,57 +583,72 @@ ul.header-nav > li > a:hover {
     left: 0;
 
 }
-.four-blocks{}
-
-.two-blocks {
-    position: relative;
-    height: 459px;
-    overflow: hidden;
+.four-blocks{
+    padding: 0;
 
 }
-.two-blocks > .two-blocks-image-top {
 
+.two-blocks-top {
+    overflow: auto;
+    width: 100%;
+
+
+
+}
+.two-blocks-bottom {
+    overflow: auto;
+    width: 100%;
+
+}
+.two-blocks-top .two-blocks-image-top {
+
+
+}
+.image-top {
     width: 50%;
-    overflow: hidden;
-
+    float: left;
 
 }
-.two-blocks > .two-blocks-item-top {
-    position: absolute;
-    left: 50%;
-    top: 0;
+.two-blocks-item-text-top {
+    vertical-align: middle;
+    padding: 0 0 0 55px;
+    transform: translateY(50%);
+    width: 540px;
+    height: 100%;
+}
+.two-blocks-item-text-bottom {
+    vertical-align: middle;
+    padding-right: 33px;
+    transform: translateY(50%);
+    width: 540px;
+    height: 100%;
+    float: right;
+}
+.two-blocks-top .two-blocks-item-top {
     width: 50%;
-    padding: 97px 0 0 37px;
-
-
-
-
-
-
+    float: right;
 
 }
-.two-blocks .blocks-title {
+.blocks-title {
     color: #374048;
 
 }
-.two-blocks .blocks-description {
+.blocks-description {
     color: #c0cad0;
     font-size: 18px;
     line-height: 32px;
     font-weight: 300;
 
 }
-.two-blocks > .two-blocks-item-bottom {
+.two-blocks-bottom .two-blocks-item-bottom {
     width: 50%;
-    height: 459px;
-    padding: 97px 37px 0 0;
+    float: left;
+
+
 }
-.two-blocks > .two-blocks-image-bottom {
-    position: absolute;
-    top: 0;
+.two-blocks-bottom .image-bottom {
     width: 50%;
-    left: 50%;
-    overflow: hidden;
+    float: right;
 }
 
 .reviews-list {
