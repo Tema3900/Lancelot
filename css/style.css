@@ -796,201 +796,129 @@ ul.header-nav > li > a:hover {
     font-weight: 300;
 }
 
+
 .timeline-block {
     position: relative;
-    height: 871px;
+    height: 100%;
+
 }
 .timeline-line {
     content: "";
     position: absolute;
-    width: 4px;
-    height: 871px;
+    width: 6px;
+    height: 100%;
     background-color: #eee;
     left:calc(50% - (4px/2));
 }
-/*
-.timeline-block .full-line-content {
-    margin: 0;
-    display: block;
-    position: relative;
-
+.row {
+    width: 100%;
+    margin-top: 40px;
 }
-*/
-.timeline-block .little-block {
+.inner {
     text-transform: uppercase;
-    position: absolute;
-
+    position: relative;
     padding: 5px 25px;
+    text-align: center;
     background: #dee0e2;
     color: #bfc2c5;
     border-radius: 5%;
+    display: inline-block;
+    left: calc(50% - 50px);
+    width: 100px;
 }
-.timeline-block .date-half-line-content {
-    position: absolute;
-    color: #dadce0;
-    font-size: 15px;
-    font-weight: 600;
-
-}
-.timeline-block .half-line-content {
-
-    position: absolute;
-
-
-    background: #f5f8fa;
-    padding: 10px 20px;
-    border-radius: 5%;
-
-}
-.timeline-block .circle {
-    position: absolute;
-
+.circle {
     content: "";
     width: 24px;
     height: 24px;
-    border: 5px solid;
+    border: 6px solid;
     border-color: #dee0e2;
     background: #fff;
     border-radius: 50%;
-}
-.timeline-block .little-block-1 {
     position: absolute;
-    left:469px;
+    left: calc(50% - (24px / 2));
+    margin-top: 10px;
+}
+.left {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-right: 45px;
+}
+.right {
+    width: 50%;
+    float: right;
+    text-align: left;
+    padding-left: 45px;
+}
+.date-block {
+    color: #dadce0;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px 0;
+
 
 }
-.timeline-block .circle-1 {
-    top: 101px;
-    left: calc(50% - (24px/2));
-    position: absolute;
-}
-.timeline-block .half-line-content-1 {
-    left: 549px;
-    top: 91px;
-    position: absolute;
-}
-.timeline-block .date-half-line-content-1 {
-    position: absolute;
-    left: 388px;
-    top: 101px;
-}
-.timeline-block .circle-2 {
-    top: 201px;
-    left: calc(50% - (24px/2));
-    position: absolute;
-}
-.timeline-block .half-line-content-2 {
-    left: 161px;
-    top: 191px;
-    position: absolute;
-}
-.timeline-block .date-half-line-content-2 {
-    position: absolute;
-    left: 549px;
-    top: 201px;
-}
-.timeline-block .circle-3 {
-    top: 301px;
-    left: calc(50% - (24px/2));
-    position: absolute;
-}
-.timeline-block .half-line-content-3 {
-    left: 553px;
-    top: 291px;
-    position: absolute;
-    width: 320px;
-}
-.timeline-block .date-half-line-content-3 {
-    position: absolute;
-    left: 388px;
-    top: 301px;
+.content-block {
+    background: #f5f8fa;
+    padding: 15px 20px;
+    border-radius: 5%;
+    display: inline-block;
+    max-width: 306px;
 
 }
-.timeline-text {
-    color: #6a737b;
+
+.content-block-title {
     font-size: 18px;
     font-weight: 500;
-    margin: 10px 0 0 0;
-}
-section .timeline-block h4 {
-    font-weight: 600;
-    font-size: 18px;
     margin: 0;
+}
+.content-block-description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #b7bbbf;
 
 }
-.timeline-block .circle-4 {
-    top: 471px;
-    left: calc(50% - (24px/2));
-    position: absolute;
-}
-.timeline-block .half-line-content-4 {
-    left: 309px;
-    top: 461px;
-    position: absolute;
-}
-.timeline-block .date-half-line-content-4 {
-    position: absolute;
-    left: 549px;
-    top: 471px;
-}
-.timeline-block .little-block-2 {
-    top: 571px;
-    left: 469px;
-    position: absolute;
-}
-.timeline-block .circle-5 {
-    top: 671px;
-    left: calc(50% - (24px/2));
-    position: absolute;
-}
-.timeline-block .half-line-content-5 {
-    left: 549px;
-    top: 661px;
-    position: absolute;
-}
-.timeline-block .date-half-line-content-5 {
-    position: absolute;
-    left: 388px;
-    top: 671px;
-}
-.timeline-block .circle-6 {
-    top: 771px;
-    left: calc(50% - (24px/2));
-    position: absolute;
-}
-.timeline-block .half-line-content-6 {
-    left: 200px;
-    top: 761px;
-    position: absolute;
-}
-.timeline-block .date-half-line-content-6 {
-    position: absolute;
-    left: 549px;
-    top: 771px;
-}
-.timeline-block .little-block-3 {
-    top: 871px;
-    left: 469px;
-    position: absolute;
-}
+
 
 .section-mobile-app {
     background: url("../img/mobile-ap-bg.jpg") no-repeat center;
+    background-size: cover;
     width: 100%;
     position: relative;
-    padding: 0;
+    padding-top: 135px;
 }
 .mobile-app-image {
     float: left;
+
 }
-.mobile-app-image > .mobile-image {}
+.mobile-app-image > .mobile-image {
+    display: block;
+}
 
 .mobile-app-for-watch {
     width: 50%;
-    
+    float: right;
+    padding-left: 45px;
+
 }
 
 .mobile-app-for-watch > .mobile-app-text {}
 
-.mobile-app-for-watch > .mobile-app-text > .mobile-app-tittle {}
+.mobile-app-for-watch > .mobile-app-text > .mobile-app-tittle {
+    color: #fff;
+    font-size: 43px;
+    font-weight: 600;
+    margin-top: 69px;
+}
 
-.mobile-app-for-watch > .mobile-app-text > .mobile-app-description {}
+.mobile-app-for-watch > .mobile-app-text > .mobile-app-description {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+.downloan-link-app {
+    margin-right: 15px;
+}
