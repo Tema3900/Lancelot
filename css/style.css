@@ -825,6 +825,7 @@ ul.header-nav > li > a:hover {
     display: inline-block;
     left: calc(50% - 50px);
     width: 100px;
+    overflow: hidden;
 }
 .circle {
     content: "";
@@ -843,12 +844,14 @@ ul.header-nav > li > a:hover {
     float: left;
     text-align: right;
     padding-right: 45px;
+    overflow: hidden;
 }
 .right {
     width: 50%;
     float: right;
     text-align: left;
     padding-left: 45px;
+    overflow: hidden;
 }
 .date-block {
     color: #dadce0;
