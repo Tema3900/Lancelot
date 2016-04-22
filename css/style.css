@@ -940,3 +940,53 @@ ul.header-nav > li > a:hover {
 .downloan-link-app {
     margin-right: 15px;
 }
+.email-address {
+    margin: 0 140px;
+
+}
+.email-address > .email-address-block {
+    position: relative;
+    display: table;
+
+
+}
+.email-address-block > .email-address-input {
+    height: 80px;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 38px;
+    background: #f8fbfd;
+    border: 1px solid #e0e8ee;
+    width: 650px;
+    display: table-cell;
+
+}
+
+.email-address-block > .email-address-button {
+    display: table-cell;
+    line-height: 80px;
+    width: 130px;
+    background: #0084ff;
+    padding: 0 30px;
+    cursor: pointer;
+
+}
+.email-address-block > .email-address-button:hover {
+    background: black;
+}
+.email-address-block > .email-address-button > .email-address-angle {
+    vertical-align: middle;
+
+    background: none;
+    border: none;
+}
+.email-address > .no-spam {
+    text-align: center;
+    color: #c0cad0;
+    font-size: 14px;
+    font-weight: 300;
+}
+.email-address > .no-spam .no-spam-image {
+    margin-right: 8px;
+    vertical-align: middle;
+}
