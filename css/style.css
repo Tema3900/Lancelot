@@ -994,3 +994,64 @@ ul.header-nav > li > a:hover {
     margin-right: 8px;
     vertical-align: middle;
 }
+
+.section-map {
+    position: relative;
+    z-index: 1;
+}
+
+#map {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.4;
+
+}
+.get-it-touch {
+    position: relative;
+    left: calc( 50% - (550px / 2));
+    top: calc( 50% - (400px / 2));
+    background: #fff;
+    padding: 40px;
+    width: 550px;
+    height: 400px;
+}
+.contact-box-tittle {
+    text-transform: uppercase;
+    color: #374048;
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0;
+}
+.contact-box {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+}
+.contact-box > li {
+    position: relative;
+    padding-left: 40px;
+    margin-top: 20px;
+    display: block;
+}
+.contact-box > .location::before {
+    content: "\f041";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 5px;
+}
+.contact-box > .phone-namber::before {
+    content: "\f095";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 5px;
+}
+.contact-box > .email-get-it-touch::before {
+    content: "\f0e0";
+    font-family: FontAwesome;
+    position: absolute;
+    left: 5px;
+}
