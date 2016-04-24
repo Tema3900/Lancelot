@@ -998,6 +998,7 @@ ul.header-nav > li > a:hover {
 .section-map {
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 #map {
