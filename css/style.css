@@ -1034,8 +1034,10 @@ ul.header-nav > li > a:hover {
 .contact-box > li {
     position: relative;
     padding-left: 40px;
-    margin-top: 20px;
+    margin-top: 15px;
     display: block;
+    color: #a5aeb3;
+    line-height: 29px;
 }
 .contact-box > .location::before {
     content: "\f041";
@@ -1054,4 +1056,20 @@ ul.header-nav > li > a:hover {
     font-family: FontAwesome;
     position: absolute;
     left: 5px;
+}
+.contact-btn {
+    margin-top: 12px;
+    width: 100%;
+    line-height: 60px;
+    background: #0084ff;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.contact-btn:hover {
+    background: black;
+    transition: all 300ms linear 0s;
 }
